@@ -17,7 +17,7 @@ jobs:
       - run: python3 main-test.py
 
 workflows:
-  build_and_test:
+  main:
     jobs:
       - build
       - test:
